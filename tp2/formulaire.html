@@ -1,0 +1,62 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="formulaire.css" >
+    <script type="text/javascript" src="formulaire.js"></script>
+    <title>tp2</title>
+
+</head>
+
+<body>
+    <h1>TP2</h1>
+    <table>
+        <tr>
+            <td>Nom </td>
+
+            <td>
+                <input type="text" name="nom" id="nom" minlength="5" maxlength="20">
+            </td>
+        </tr>
+        <tr>
+            <td>Prénom</td>
+            <td>
+                <input type="text" name="prenom" id="prenom" minlength="5" maxlength="20">
+            </td>
+            <br>
+
+        </tr>
+        <tr>
+            <td> date de naissance</td>
+            <td>
+                <input type="date" name="date" >
+                <br>
+            </td>
+        </tr>
+        <tr>
+            <td> adresse</td>
+            <td>
+                <input type="text" name="adresse" minlength="5"  maxlength="50">
+            </td>
+            <br>
+        </tr>
+        <tr>
+            <td>mail</td>
+            <td>
+                <input type="email" name="email" minlength="5" maxlength="30">
+            </td>
+            <br>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" value="valider" onclick="verif()">
+            </td>
+            <br>
+            </form>
+        </tr>
+    </table>
+<div id="verif"></div>
+<div id="resultat" ></div>
+
+</body>
+
+</html>
